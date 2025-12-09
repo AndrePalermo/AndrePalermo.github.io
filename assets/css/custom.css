@@ -1,0 +1,16 @@
+/* Institutional/Fellowship logos styling */
+.institution-logos {
+  text-align: center;
+  margin: 40px 0;  /* space above and below logos */
+}
+
+.institution-logos img {
+  height: 200px;       /* uniform height for all logos */
+  margin: 0 15px;     /* horizontal spacing between logos */
+  vertical-align: middle;
+  transition: transform 0.2s; /* optional: small hover effect */
+}
+
+.institution-logos img:hover {
+  transform: scale(1.05);     /* optional: slight zoom on hover */
+}
